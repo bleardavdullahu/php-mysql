@@ -42,4 +42,27 @@ echo "<tr>";
 }
 echo "</table>";
 
+for($x = 0; $x<3; $x++){
+        echo "<ul>";
+        for($y = 0; $y<3; $y++){
+            echo "<li>".$dogs[$x][$y]."</li>";
+        }
+        echo "</ul>";
+    }
+
+    $grades = [
+        "Matematik" => "3",
+        "Biologji" => "2",
+        "Histori" => "5",
+        "Muzik" => "4",
+    ] ;
+
+    echo"Math grade is ".$grades["Matematik"]."<br>";
+    echo"Math grade is ".$grades["Matematik"]."<br>";
+    echo"Math grade is ".$grades["Matematik"]."<br>";
+    echo"Math grade is ".$grades["Matematik"]."<br>";
+        
+
+
 ?>
+
