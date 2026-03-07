@@ -15,7 +15,7 @@ try{
 
     echo("Connected");
 
-}catch(Exeption $e){
+}catch(Exception $e){
     echo("Not connected");
 
 }
