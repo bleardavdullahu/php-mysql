@@ -15,4 +15,5 @@ $sql = "UPDATE users
 SET username = :username,
 name = :name,
 surname= :surname"
-    }
+   
+   }
