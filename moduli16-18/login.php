@@ -178,6 +178,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </style>
 </head>
 <body>
+
+     <?php include('header.php')?>
+
     <div class="login-shell">
         <div class="brand">
             <h1>Welcome Back</h1>
